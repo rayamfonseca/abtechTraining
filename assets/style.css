@@ -1,0 +1,71 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@100;400;700&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    font-family: 'Roboto', sans-serif;
+    box-sizing: border-box;
+    text-decoration: none;
+}
+
+body {
+    background: rgb(251, 251, 251);
+}
+
+header {
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    padding: 20px 100px;
+}
+
+#logo-cabecalho-container h1 {
+    font-weight: 400;
+    color: gray;
+}
+
+#logo-cabecalho-container h1 strong {
+    font-weight: 700;
+    color: blue;
+}
+
+nav a {
+    margin: 0 20px;
+    font-weight: 400;
+    font-size: 14px;
+}
+
+nav a:hover {
+    color: #38b4ff;
+    transition: 0.2s;
+}
+
+ul {
+    display: flex;
+    list-style: none;
+    gap: 0 35px;
+    align-items: center;
+}
+
+li {
+    font-size: 14px;
+}
+
+li:nth-child(2) {
+    border: none;
+    padding: 10px 20px;
+    background: linear-gradient(135deg, #00ffff 0, #38b4ff 50%, #356c99 100%);
+    font-weight: 700;
+    border-radius: 40px;
+    color: white;
+}
+
+li .a-ul-container {
+    color: aliceblue;
+}
+
+li a:hover {
+    color: #38b4ff;
+    transition: 0.2s;
+}
+
