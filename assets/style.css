@@ -119,6 +119,7 @@ aside .buttom-content-main:hover {
 
 section {
     background: white;
+    padding: 10px 0 45px 0;
 }
 
 section .content-services-container {
@@ -181,4 +182,12 @@ section .action-services-container .content-action-services-container span {
     text-align: center;
 }
 
+footer {
+    padding: 20px 0;
+}
 
+footer .img-footer {
+    height: 40px;
+    display: block;
+    margin: 0 auto;
+}
